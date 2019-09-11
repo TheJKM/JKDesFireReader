@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		8F27224222C01A4C002BBAC0 /* JKDataHexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F27224122C01A4C002BBAC0 /* JKDataHexString.swift */; };
-		8F3347C72308A0E40052FDF3 /* JKDesFireValueFileSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3347C62308A0E30052FDF3 /* JKDesFireValueFileSettings.swift */; };
 		8F3347CA2308A1A40052FDF3 /* JKDesFireFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3347C92308A1A40052FDF3 /* JKDesFireFile.swift */; };
 		8F3347CC2308A1B00052FDF3 /* JKDesFireValueFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3347CB2308A1B00052FDF3 /* JKDesFireValueFile.swift */; };
 		8F3347CE2308A6E70052FDF3 /* JKDesFireApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F3347CD2308A6E70052FDF3 /* JKDesFireApplication.swift */; };
+		8F4B0CBA23295280001BAC01 /* JKDesFireValueFileSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4B0CB923295280001BAC01 /* JKDesFireValueFileSettings.swift */; };
 		8F5D8FE523256F5600ABEF07 /* JKDesFireDataFileSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5D8FE423256F5600ABEF07 /* JKDesFireDataFileSettings.swift */; };
 		8F5D8FE723256F6700ABEF07 /* JKDesFireRecordFileSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5D8FE623256F6700ABEF07 /* JKDesFireRecordFileSettings.swift */; };
 		8F7F7F3422B9894F0048C268 /* JKDesFireReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F7F7F3222B9894F0048C268 /* JKDesFireReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -48,10 +48,10 @@
 		2707B56B69DB29C1A7E74748 /* Pods_JKDesFireReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKDesFireReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9476B315CD74A54B80A671 /* Pods-JKDesFireReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKDesFireReader.debug.xcconfig"; path = "Target Support Files/Pods-JKDesFireReader/Pods-JKDesFireReader.debug.xcconfig"; sourceTree = "<group>"; };
 		8F27224122C01A4C002BBAC0 /* JKDataHexString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKDataHexString.swift; sourceTree = "<group>"; };
-		8F3347C62308A0E30052FDF3 /* JKDesFireValueFileSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JKDesFireValueFileSettings.swift; path = /Users/johannes/Documents/Git/libdesfirereader/JKDesFireReader/JKDesFireFileSettings/JKDesFireValueFileSettings.swift; sourceTree = "<absolute>"; };
 		8F3347C92308A1A40052FDF3 /* JKDesFireFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKDesFireFile.swift; sourceTree = "<group>"; };
 		8F3347CB2308A1B00052FDF3 /* JKDesFireValueFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKDesFireValueFile.swift; sourceTree = "<group>"; };
 		8F3347CD2308A6E70052FDF3 /* JKDesFireApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKDesFireApplication.swift; sourceTree = "<group>"; };
+		8F4B0CB923295280001BAC01 /* JKDesFireValueFileSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKDesFireValueFileSettings.swift; sourceTree = "<group>"; };
 		8F5D8FE423256F5600ABEF07 /* JKDesFireDataFileSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKDesFireDataFileSettings.swift; sourceTree = "<group>"; };
 		8F5D8FE623256F6700ABEF07 /* JKDesFireRecordFileSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKDesFireRecordFileSettings.swift; sourceTree = "<group>"; };
 		8F7F7F2F22B9894F0048C268 /* JKDesFireReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKDesFireReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -182,10 +182,10 @@
 		8FFD344622BBB4E300886F09 /* JKDesFireFileSettings */ = {
 			isa = PBXGroup;
 			children = (
-				8F3347C62308A0E30052FDF3 /* JKDesFireValueFileSettings.swift */,
 				8FFD344422BBB26000886F09 /* JKDesFireFileSettings.swift */,
 				8F5D8FE423256F5600ABEF07 /* JKDesFireDataFileSettings.swift */,
 				8F5D8FE623256F6700ABEF07 /* JKDesFireRecordFileSettings.swift */,
+				8F4B0CB923295280001BAC01 /* JKDesFireValueFileSettings.swift */,
 			);
 			path = JKDesFireFileSettings;
 			sourceTree = "<group>";
@@ -298,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F3347CC2308A1B00052FDF3 /* JKDesFireValueFile.swift in Sources */,
+				8F4B0CBA23295280001BAC01 /* JKDesFireValueFileSettings.swift in Sources */,
 				8F7F7F3D22B98A150048C268 /* JKNFCReadingSession.swift in Sources */,
 				8F27224222C01A4C002BBAC0 /* JKDataHexString.swift in Sources */,
 				8FFD344822BBB4FA00886F09 /* JKDesFireFileTypes.swift in Sources */,
@@ -305,7 +306,6 @@
 				8FFD344522BBB26000886F09 /* JKDesFireFileSettings.swift in Sources */,
 				8FE6D47422CD351600F9DB43 /* JKEssentials.swift in Sources */,
 				8F5D8FE523256F5600ABEF07 /* JKDesFireDataFileSettings.swift in Sources */,
-				8F3347C72308A0E40052FDF3 /* JKDesFireValueFileSettings.swift in Sources */,
 				8F5D8FE723256F6700ABEF07 /* JKDesFireRecordFileSettings.swift in Sources */,
 				8FBDE41F22BB59E300143C06 /* JKDesFireProtocol.swift in Sources */,
 				8F7F7F3B22B9897A0048C268 /* JKDesFireReader.swift in Sources */,
@@ -446,6 +446,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 100;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = EBQF48FD36;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -476,6 +477,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 100;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = EBQF48FD36;
 				DYLIB_COMPATIBILITY_VERSION = 1;
