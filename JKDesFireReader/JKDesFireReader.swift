@@ -117,8 +117,19 @@ public class JKDesFireReader {
     
     // MARK: DesFire functions
     
+    public func getTagId() -> Int {
+        guard tag != nil else {
+            return -1
+        }
+        return Int(littleEndian: tag!.identifier.withUnsafeBytes { $0.pointee })
+    }
+    
     public func listApplications() -> Promise<[UInt32]> {
         return Promise<[UInt32]> { seal in
+            // Check if a tag is present
+            if (tag == nil) {
+                seal.reject(JKDesFirePublicError.ERR_NO_TAG_FOUND)
+            }
             tag!.sendCommand(JKDesFireCommands.GET_APPLICATION_DIRECTORY.rawValue)
             .done { data in
                 // Create byte array from input data
@@ -164,6 +175,10 @@ public class JKDesFireReader {
                 return
             }
             
+            // Check if a tag is present
+            if (tag == nil) {
+                seal.reject(JKDesFirePublicError.ERR_NO_TAG_FOUND)
+            }
             // Send request to card and handle promise
             tag!.sendRequest(JKDesFireCommands.SELECT_APPLICATION.rawValue, byteArray).asVoid()
             .done { data in
