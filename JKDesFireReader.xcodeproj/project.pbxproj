@@ -21,17 +21,15 @@
 		8FBDE42422BB5EAB00143C06 /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FBDE42122BB5E9600143C06 /* CoreNFC.framework */; platformFilter = ios; };
 		8FBDE69F22BD6EE200DACD9B /* JKDesFireReaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDE69E22BD6EE200DACD9B /* JKDesFireReaderDelegate.swift */; };
 		8FC3764722BBE7A80089B7BD /* JKDesFireCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC3764622BBE7A80089B7BD /* JKDesFireCommand.swift */; };
+		8FC4B7FA28E597BD00100E82 /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8FC4B7F928E597BD00100E82 /* PromiseKit */; };
 		8FD0BE0D2326D1D700A26E54 /* JKDesFireDataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD0BE0C2326D1D700A26E54 /* JKDesFireDataFile.swift */; };
 		8FE6D47422CD351600F9DB43 /* JKEssentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE6D47322CD351600F9DB43 /* JKEssentials.swift */; };
-		8FE6D47622CD399300F9DB43 /* Pods_JKDesFireReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE6D47522CD399300F9DB43 /* Pods_JKDesFireReader.framework */; };
 		8FFD344322BBB01300886F09 /* JKDesFireError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFD344222BBB01300886F09 /* JKDesFireError.swift */; };
 		8FFD344522BBB26000886F09 /* JKDesFireFileSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFD344422BBB26000886F09 /* JKDesFireFileSettings.swift */; };
 		8FFD344822BBB4FA00886F09 /* JKDesFireFileTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFD344722BBB4FA00886F09 /* JKDesFireFileTypes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2707B56B69DB29C1A7E74748 /* Pods_JKDesFireReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKDesFireReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A9476B315CD74A54B80A671 /* Pods-JKDesFireReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKDesFireReader.debug.xcconfig"; path = "Target Support Files/Pods-JKDesFireReader/Pods-JKDesFireReader.debug.xcconfig"; sourceTree = "<group>"; };
 		8F27224122C01A4C002BBAC0 /* JKDataHexString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKDataHexString.swift; sourceTree = "<group>"; };
 		8F3347C92308A1A40052FDF3 /* JKDesFireFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKDesFireFile.swift; sourceTree = "<group>"; };
 		8F3347CB2308A1B00052FDF3 /* JKDesFireValueFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKDesFireValueFile.swift; sourceTree = "<group>"; };
@@ -51,11 +49,9 @@
 		8FC3764622BBE7A80089B7BD /* JKDesFireCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKDesFireCommand.swift; sourceTree = "<group>"; };
 		8FD0BE0C2326D1D700A26E54 /* JKDesFireDataFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKDesFireDataFile.swift; sourceTree = "<group>"; };
 		8FE6D47322CD351600F9DB43 /* JKEssentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKEssentials.swift; sourceTree = "<group>"; };
-		8FE6D47522CD399300F9DB43 /* Pods_JKDesFireReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_JKDesFireReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FFD344222BBB01300886F09 /* JKDesFireError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKDesFireError.swift; sourceTree = "<group>"; };
 		8FFD344422BBB26000886F09 /* JKDesFireFileSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKDesFireFileSettings.swift; sourceTree = "<group>"; };
 		8FFD344722BBB4FA00886F09 /* JKDesFireFileTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKDesFireFileTypes.swift; sourceTree = "<group>"; };
-		EAA1AC0176B13E768BC9BE60 /* Pods-JKDesFireReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKDesFireReader.release.xcconfig"; path = "Target Support Files/Pods-JKDesFireReader/Pods-JKDesFireReader.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,22 +60,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FBDE42422BB5EAB00143C06 /* CoreNFC.framework in Frameworks */,
-				8FE6D47622CD399300F9DB43 /* Pods_JKDesFireReader.framework in Frameworks */,
+				8FC4B7FA28E597BD00100E82 /* PromiseKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		69D763736834BE505D8443CF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8A9476B315CD74A54B80A671 /* Pods-JKDesFireReader.debug.xcconfig */,
-				EAA1AC0176B13E768BC9BE60 /* Pods-JKDesFireReader.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		8F27224022C01A35002BBAC0 /* JKExtensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,7 +92,6 @@
 				8F7F7F3122B9894F0048C268 /* JKDesFireReader */,
 				8F7F7F3022B9894F0048C268 /* Products */,
 				8FBDE42022BB5E9600143C06 /* Frameworks */,
-				69D763736834BE505D8443CF /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,9 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				8FBDE42322BB5EA500143C06 /* libswiftCoreNFC.tbd */,
-				8FE6D47522CD399300F9DB43 /* Pods_JKDesFireReader.framework */,
 				8FBDE42122BB5E9600143C06 /* CoreNFC.framework */,
-				2707B56B69DB29C1A7E74748 /* Pods_JKDesFireReader.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,7 +177,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F7F7F3722B9894F0048C268 /* Build configuration list for PBXNativeTarget "JKDesFireReader" */;
 			buildPhases = (
-				936625FFFA658CDB8C7B7247 /* [CP] Check Pods Manifest.lock */,
 				8F7F7F2A22B9894F0048C268 /* Headers */,
 				8F7F7F2B22B9894F0048C268 /* Sources */,
 				8F7F7F2C22B9894F0048C268 /* Frameworks */,
@@ -204,6 +187,9 @@
 			dependencies = (
 			);
 			name = JKDesFireReader;
+			packageProductDependencies = (
+				8FC4B7F928E597BD00100E82 /* PromiseKit */,
+			);
 			productName = JKDesFireReader;
 			productReference = 8F7F7F2F22B9894F0048C268 /* JKDesFireReader.framework */;
 			productType = "com.apple.product-type.framework";
@@ -214,7 +200,7 @@
 		8F7F7F2622B9894F0048C268 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1400;
 				ORGANIZATIONNAME = "Johannes Kreutz";
 				TargetAttributes = {
 					8F7F7F2E22B9894F0048C268 = {
@@ -232,6 +218,9 @@
 				Base,
 			);
 			mainGroup = 8F7F7F2522B9894F0048C268;
+			packageReferences = (
+				8FC4B7F828E597BD00100E82 /* XCRemoteSwiftPackageReference "PromiseKit" */,
+			);
 			productRefGroup = 8F7F7F3022B9894F0048C268 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -250,31 +239,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		936625FFFA658CDB8C7B7247 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JKDesFireReader-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8F7F7F2B22B9894F0048C268 /* Sources */ = {
@@ -330,6 +294,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -393,6 +358,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -426,7 +392,6 @@
 		};
 		8F7F7F3822B9894F0048C268 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A9476B315CD74A54B80A671 /* Pods-JKDesFireReader.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,7 +422,6 @@
 		};
 		8F7F7F3922B9894F0048C268 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EAA1AC0176B13E768BC9BE60 /* Pods-JKDesFireReader.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +471,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8FC4B7F828E597BD00100E82 /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mxcl/PromiseKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8FC4B7F928E597BD00100E82 /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8FC4B7F828E597BD00100E82 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8F7F7F2622B9894F0048C268 /* Project object */;
 }
